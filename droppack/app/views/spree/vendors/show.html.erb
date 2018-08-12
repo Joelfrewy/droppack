@@ -1,0 +1,29 @@
+<% @body_id = 'vendor-details' %>
+
+<% cache cache_key_for_vendor do %>
+  <div data-hook="vendor_show" class="row">
+    <div class="col-md-4 col-sm-5" data-hook="vendor_left_part">
+      <div data-hook="vendor_left_part_wrap">
+        <div id="vendor-images" data-hook="vendor_images">
+          <div id="main-image" class="panel panel-default" data-hook>
+            <div class="panel-body text-center">
+              <%= @vendor.image %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8 col-sm-7" data-hook="vendor_right_part">
+      <div data-hook="vendor_right_part_wrap">
+        <div id="vendor-description" data-hook="vendor_description">
+          <h1 class="vendor-title" itemprop="name"><%= @vendor.name %></h1>
+
+          <div class="well" itemprop="description" data-hook="description">
+            <%#= @vendor.description %>
+          </div>
+
+      </div>
+    </div>
+  </div>
+<% end %>

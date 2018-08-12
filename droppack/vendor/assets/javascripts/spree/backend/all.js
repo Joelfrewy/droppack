@@ -10,3 +10,4 @@
 
 //= require_tree .
 //= require spree/backend/spree_digital
+//= require spree/backend/spree_multi_vendor
