@@ -8,3 +8,6 @@
 
 Spree::Core::Engine.load_seed if defined?(Spree::Core)
 Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+
+Spree::Vendor.find_or_create_by(name: 'Crazy Socks')
+Spree::Product.find_by!(name: 'Ruby on Rails Baseball Jersey').update_column(:vendor_id, 1)
