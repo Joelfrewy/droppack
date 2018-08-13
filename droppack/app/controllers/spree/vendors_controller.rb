@@ -4,18 +4,11 @@ class Spree::VendorsController < ApplicationController
     respond_to :html
 
     def index
-      '''@searcher = build_searcher(params.merge(include_images: true))
-      @products = @searcher.retrieve_products
-      @products = @products.includes(:possible_promotions) if @products.respond_to?(:includes)
-      @taxonomies = Spree::Taxonomy.includes(root: :children)'''
+
     end
 
     def show
-      '''@variants = @product.variants_including_master.
-          spree_base_scopes.
-          active(current_currency).
-          includes([:option_values, :images])
-      @product_properties = @product.product_properties.includes(:property)'''
+      @products = @vendor.products
     end
 
     def vendor_image(vendor)
@@ -40,7 +33,7 @@ class Spree::VendorsController < ApplicationController
                     Spree::Vendor
                   end
       #@vendor = @vendors.friendly.distinct(false).find(params[:id])
-      @vendor = @vendors.distinct(false).find(params[:id])
+      @vendor = @vendors.find_by slug: params[:slug]
     end
 
     def redirect_if_legacy_path

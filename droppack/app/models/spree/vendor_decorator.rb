@@ -1,10 +1,10 @@
 Spree::Vendor.class_eval do
   before_create :set_slug
-  before_action :get_vendor, only: [:show, :edit, :destroy]
+  #before_action :get_vendor, only: [:show, :edit, :destroy]
   has_one_attached :image, dependent: :destroy
 
   def to_param
-    vendor.slug
+    self.slug
   end
 
   private
