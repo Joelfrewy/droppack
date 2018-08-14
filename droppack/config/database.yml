@@ -29,7 +29,7 @@ default: &default
 development:
   <<: *default
   database: droppack
-  host: droppack.c6oetbrke8ez.us-east-1.rds.amazonaws.com
+  host: localhost
   username: joelfrewin
   password: joelfrewy
   # The specified database role being used to connect to postgres.
