@@ -9,5 +9,12 @@
 Spree::Core::Engine.load_seed if defined?(Spree::Core)
 Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
 
-Spree::Vendor.find_or_create_by(name: 'Crazy Socks')
-Spree::Product.find_by!(name: 'Ruby on Rails Baseball Jersey').update_column(:vendor_id, 1)
+Spree::Vendor.find_or_create_by(name: 'Crazy Socks', owner_id: 2)
+Spree::Vendor.find_or_create_by(name: 'Comic Box', owner_id: 2)
+Spree::Product.all.each_with_index do |product, index|
+    if index < 5
+        product.update_column(:vendor_id, Spree::Vendor.find_by(name: 'Crazy Socks').id)
+    else
+        product.update_column(:vendor_id, Spree::Vendor.find_by(name: 'Comic Box').id)
+    end
+end

@@ -20,7 +20,7 @@
           <h1 class="vendor-title" itemprop="name"><%= @vendor.name %></h1>
 
           <div class="well" itemprop="description" data-hook="description">
-            <%#= @vendor.description %>
+            owner: <%= @vendor.user.email %>
           </div>
 
       </div>
