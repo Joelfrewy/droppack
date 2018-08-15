@@ -3,6 +3,10 @@ Spree::Admin::VendorsController.class_eval do
     # Relevant code in here
   end
 
+  def edit
+    # Relevant code in here
+  end
+
   def new_coll_action
     # relevant code
   end
@@ -12,6 +16,6 @@ Spree::Admin::VendorsController.class_eval do
   end
   private
   def model_class
-    Vendor
+    Spree::Vendor
   end
 end

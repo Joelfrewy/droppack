@@ -4,10 +4,14 @@ Rails.application.routes.draw do
     get 'vendors/new'
     get 'vendors/create'
     get 'vendors/update'
-    get 'vendors/edit'
     get 'vendors/destroy'
     get 'vendors/index'
     get 'vendors/:slug', to: 'vendors#show'
+
+    namespace :admin, path: "/admin"  do
+      resources :vendors
+      #get 'vendors/:slug/edit'
+    end
   end
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to
