@@ -14,3 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+import * as ActiveStorage from "activestorage"
+ActiveStorage.start()

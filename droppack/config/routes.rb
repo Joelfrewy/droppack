@@ -8,6 +8,20 @@ Rails.application.routes.draw do
     get 'vendors/index'
     get 'vendors/:slug', to: 'vendors#show'
 
+    resources :users do
+      member do
+        get :subscribed
+      end
+    end
+
+    resources :vendors do
+      member do
+        get :subscribers
+      end
+    end
+
+    resources :subscriptions, only: [:create, :destroy]
+
     namespace :admin, path: "/admin"  do
       resources :vendors
       #get 'vendors/:slug/edit'

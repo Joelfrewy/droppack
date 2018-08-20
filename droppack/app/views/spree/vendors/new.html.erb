@@ -1,2 +1,5 @@
-<h1>Spree::Vendors#new</h1>
-<p>Find me in app/views/spree/vendors/new.html.erb</p>
+<%= form_for @vendor, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= f.text_field :name %>
+  <%= f.file_field :avatar, multiple: false, direct_upload: true %>
+  <%= f.submit "Create" %>
+<% end %>

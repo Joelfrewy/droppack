@@ -4,10 +4,10 @@
   <div data-hook="vendor_show" class="row">
     <div class="col-md-4 col-sm-5" data-hook="vendor_left_part">
       <div data-hook="vendor_left_part_wrap">
-        <div id="vendor-images" data-hook="vendor_images">
+        <div id="vendor-image" data-hook="vendor_image">
           <div id="main-image" class="panel panel-default" data-hook>
             <div class="panel-body text-center">
-              <%= @vendor.image %>
+              <%= @vendor.avatar.attached? %>
             </div>
           </div>
         </div>
@@ -23,6 +23,23 @@
             owner: <%= @vendor.user.email %>
           </div>
 
+          <div class="well" itemprop="description" data-hook="description">
+            subscribed: <%= spree_current_user.subscribed?(@vendor) %>
+          </div>
+
+          <div id="follow_form">
+          <% if spree_current_user.subscribed?(@vendor) %>
+            <%= form_for(spree_current_user.active_subscriptions.find_by(vendor_id: @vendor.id),
+                         html: { method: :delete }) do |f| %>
+              <%= f.submit "Unsubscribe", class: "btn" %>
+            <% end %>
+          <% else %>
+            <%= form_for(spree_current_user.active_subscriptions.build) do |f| %>
+              <div><%= hidden_field_tag :vendor_id, @vendor.id %></div>
+              <%= f.submit "Subscribe", class: "btn btn-primary" %>
+            <% end %>
+          <% end %>
+          </div>
       </div>
     </div>
     <div data-hook="search_results">

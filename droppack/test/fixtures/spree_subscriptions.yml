@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  vendor: one
+  deleted_at: 2018-08-16 22:05:59
+
+two:
+  user: two
+  vendor: two
+  deleted_at: 2018-08-16 22:05:59

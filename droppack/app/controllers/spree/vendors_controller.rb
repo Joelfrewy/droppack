@@ -3,6 +3,23 @@ class Spree::VendorsController < ApplicationController
 
     respond_to :html
 
+    def new
+      @vendor = Spree::Vendor.new
+    end
+
+    def create
+      @vendor = Spree::Vendor.new(vendor_params)
+      @vendor.owner_id = spree_current_user.id
+      @vendor.avatar.attach(params[:vendor][:avatar])
+      if @vendor.save
+        redirect_to @vendor
+      else
+        # This line overrides the default rendering behavior, which
+        # would have been to render the "create" view.
+        render "new"
+      end
+    end
+
     def index
 
     end
@@ -12,7 +29,7 @@ class Spree::VendorsController < ApplicationController
     end
 
     def vendor_image(vendor)
-      vendor.image
+      vendor.avatar
     end
 
     private
@@ -44,5 +61,9 @@ class Spree::VendorsController < ApplicationController
         params.permit!
         redirect_to url_for(params), status: :moved_permanently
       end
+    end
+
+    def vendor_params
+      params.require(:vendor).permit(:name, :avatar)
     end
   end
