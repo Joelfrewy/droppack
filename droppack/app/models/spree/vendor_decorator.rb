@@ -3,7 +3,7 @@ Spree::Vendor.class_eval do
   #before_action :get_vendor, only: [:show, :edit, :destroy]
   has_one_attached :avatar, dependent: :destroy
   belongs_to :user, foreign_key: "owner_id"
-  has_many :passive_subscriptions,  -> { where deleted_at: nil },
+  has_many :passive_subscriptions,  -> { without_deleted },
                                     class_name:  "Spree::Subscription",
                                    foreign_key: "vendor_id",
                                    dependent:   :destroy

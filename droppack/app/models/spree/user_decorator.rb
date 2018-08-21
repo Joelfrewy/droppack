@@ -1,6 +1,6 @@
 Spree::User.class_eval do
   has_many :vendors, foreign_key: "owner_id"
-  has_many :active_subscriptions, -> { where deleted_at: nil },
+  has_many :active_subscriptions, -> { without_deleted },
                                   class_name:  "Spree::Subscription",
                                   foreign_key: "subscriber_id",
                                   dependent:   :destroy
@@ -11,7 +11,7 @@ Spree::User.class_eval do
   end
 
   def unsubscribe(vendor)
-    subscribed.delete(vendor)
+    subscribed.destroy(vendor)
   end
 
   def subscribed?(vendor)
