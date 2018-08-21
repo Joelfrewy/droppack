@@ -953,7 +953,7 @@ ActiveRecord::Schema.define(version: 2018_08_16_140559) do
     t.integer "vendor_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["subscriber_id", "vendor_id"], name: "index_spree_subscriptions_on_subscriber_id_and_vendor_id", unique: true
+    t.index ["subscriber_id", "vendor_id"], name: "index_spree_subscriptions_on_subscriber_id_and_vendor_id", unique: true, where: "(deleted_at IS NULL)"
   end
 
   create_table "spree_supplier_variants", id: :serial, force: :cascade do |t|
