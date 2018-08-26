@@ -1,0 +1,17 @@
+<%= form_with(model: spree_pack, local: true) do |form| %>
+  <% if spree_pack.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(spree_pack.errors.count, "error") %> prohibited this spree_pack from being saved:</h2>
+
+      <ul>
+      <% spree_pack.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
