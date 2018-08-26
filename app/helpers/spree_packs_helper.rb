@@ -1,0 +1,2 @@
+module SpreePacksHelper
+end

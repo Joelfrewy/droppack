@@ -1,0 +1,15 @@
+<% content_for :head do %>
+  <% if packs.respond_to?(:total_pages) %>
+    <%= rel_next_prev_link_tags packs %>
+  <% end %>
+<% end %>
+
+<% if packs.any? %>
+  <div id="packs" class="row" data-hook>
+    <%= render partial: 'spree/packs/pack', collection: packs %>
+  </div>
+<% end %>
+
+<% if packs.respond_to?(:total_pages) %>
+  <%= paginate packs, theme: 'twitter-bootstrap-3' %>
+<% end %>

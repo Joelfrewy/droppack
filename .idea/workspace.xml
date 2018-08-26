@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5f27040-5677-4fcf-8dce-7e92794c8f80" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/droppack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/.generators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/.rakeTasks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/droppack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/.ruby-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/images/crazy_socks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/javascripts/channels/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/javascripts/spree/subscriptions.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/javascripts/spree/vendors.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/stylesheets/spree/subscriptions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/assets/stylesheets/spree/vendors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/spree/admin/vendors_controller_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/spree/products_controller_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/spree/subscriptions_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/controllers/spree/vendors_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/helpers/spree/base_helper_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/helpers/spree/products_helper_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/helpers/spree/subscriptions_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/helpers/spree/vendors_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/spree/ability_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/spree/subscription.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/spree/user_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/models/spree/vendor_decorator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/overrides/spree/admin/layouts/admin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_first_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_gap.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_last_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_next_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_paginator.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/_prev_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_first_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_gap.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_last_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_next_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_paginator.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/kaminari/twitter-bootstrap-3/_prev_page.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_address.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_error_messages.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_filters.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_head.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_header.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_link_to_cart.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_login.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_login_bar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_main_nav_bar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_nav_bar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_order_details.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_payment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_products.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_search.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_shipment_tracking.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_sidebar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_taxonomies.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/_translations.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/forbidden.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/shared/unauthorized.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/address/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/_adjustment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/_adjustments_table.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/adjustments/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/countries/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/countries/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/countries/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/countries/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/_reimbursements_table.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/_return_item_decision.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/_return_item_selection.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/customer_returns/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/general_settings/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/images/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/images/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/images/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/images/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/log_entries/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/option_types/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/option_types/_option_value_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/option_types/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/option_types/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/option_types/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_add_line_item.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_add_product.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_adjustments.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_line_items.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_line_items_edit_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_order_actions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_risk_analysis.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_shipment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_shipment_manifest.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/_store_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/cart.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/customer_details/_autocomplete.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/customer_details/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/customer_details/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/orders/store.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payment_methods/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payment_methods/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payment_methods/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payment_methods/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/_capture_events.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/_list.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/credit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/source_forms/_gateway.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/source_forms/_storecredit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/source_views/_check.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/source_views/_gateway.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/payments/source_views/_storecredit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/product_properties/_product_property_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/product_properties/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/_add_stock_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/_autocomplete.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/products/stock.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_actions/create.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_actions/destroy.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_categories/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_categories/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_categories/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_categories/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_rules/create.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotion_rules/destroy.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/_actions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/_promotion_action.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/_promotion_rule.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/_rules.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/actions/_create_adjustment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/actions/_create_item_adjustments.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/actions/_create_line_items.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/actions/_free_shipping.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/calculators/_default_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/calculators/tiered_flat_rate/_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/calculators/tiered_percent/_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_country.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_first_order.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_item_total.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_one_use_per_user.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_option_value.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_product.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_taxon.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_user.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/promotions/rules/_user_logged_in.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/properties/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/properties/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/properties/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/properties/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/_prototypes.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/available.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/select.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/prototypes/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/refund_reasons/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/refund_reasons/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/refund_reasons/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/refunds/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/refunds/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursement_types/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursement_types/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursement_types/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursement_types/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursements/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursements/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reimbursements/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reports/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/reports/sales_total.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorization_reasons/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorization_reasons/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorization_reasons/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorizations/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorizations/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorizations/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_authorizations/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_index/customer_returns.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/return_index/return_authorizations.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/roles/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/roles/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/roles/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/roles/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_account_nav.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_address.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_address_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_calculator_fields.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_content_header.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_destroy.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_edit_resource_links.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_error_messages.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_head.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_header.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_index_table_options.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_main_menu.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_new_resource_links.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_order_summary.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_order_tabs.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_product_tabs.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_refunds.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_report_order_criteria.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_sidebar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_table_filter.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_translations.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_update_order_state.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_update_store_credit.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/_version.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/named_types/_edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/named_types/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/named_types/_index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/named_types/_new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/sub_menu/_configuration.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/sub_menu/_product.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/sub_menu/_promotion.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shared/sub_menu/_returns.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_categories/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_categories/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_categories/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_categories/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_methods/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_methods/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_methods/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/shipping_methods/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/state_changes/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/_state_list.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/states/new.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_items/destroy.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_locations/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_locations/_transfer_stock_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_locations/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_locations/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_locations/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_movements/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_movements/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_movements/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_transfers/_stock_movements.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_transfers/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_transfers/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stock_transfers/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credit_categories/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credit_categories/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credit_categories/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credit_categories/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credits/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credits/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credits/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/store_credits/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stores/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stores/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stores/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/stores/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_categories/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_categories/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_categories/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_categories/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_categories/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_rates/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_rates/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_rates/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/tax_rates/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/_js_head.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/_list.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxonomies/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxons/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxons/_taxon_table.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxons/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/taxons/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/_addresses_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/_lifetime_stats.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/_sidebar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/_user_page_actions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/addresses.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/items.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/users/orders.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/_autocomplete.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/_autocomplete_line_items_stock.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/_autocomplete_stock.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/_split.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/new.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/variants/update.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/vendors/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/vendors/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/_country_members.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/_state_members.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/admin/zones/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/_address.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/_confirm.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/_delivery.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/_payment.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/_summary.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/payment/_check.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/payment/_gateway.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/checkout/payment/_storecredit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/content/cvv.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/content/test.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/home/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/layouts/admin.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/_adjustment_row.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/_adjustments.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/_line_item.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/orders/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_cart_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_product.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_promotions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_properties.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_taxons.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/_thumbnails.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/products/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/taxons/_taxon.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/taxons/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/create.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/destroy.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/app/views/spree/vendors/update.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/devise.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112637_create_active_storage_tables.active_storage.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112638_spree_one_two.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112639_spree_promo_one_two.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112640_add_tax_rate_label.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112641_add_toggle_tax_rate_display.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112642_remove_unused_preference_columns.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112643_add_lock_version_to_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112644_add_states_required_to_countries.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112645_add_on_demand_to_product_and_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112646_remove_not_null_constraint_from_products_on_hand.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112647_split_prices_from_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112648_remove_not_null_from_spree_prices_amount.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112649_add_currency_to_line_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112650_add_currency_to_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112651_add_cost_currency_to_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112652_remove_display_on_from_payment_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112653_add_position_to_taxonomies.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112654_add_last_ip_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112655_add_state_to_spree_adjustments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112656_add_display_on_to_spree_payment_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112657_add_position_to_product_properties.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112658_add_identifier_to_spree_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112659_add_order_id_index_to_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112660_add_primary_to_spree_products_taxons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112661_create_spree_stock_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112662_create_spree_stock_locations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112663_create_default_stock.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112664_add_order_id_index_to_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112665_change_meta_description_on_spree_products_to_text.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112666_add_stock_location_id_to_spree_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112667_add_pending_to_inventory_unit.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112668_remove_on_demand_from_product_and_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112669_create_shipping_method_zone.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112670_remove_shipping_category_id_from_shipping_method.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112671_create_shipping_method_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112672_add_tracking_url_to_spree_shipping_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112673_create_spree_shipping_rates.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112674_remove_category_match_attributes_from_shipping_method.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112675_create_stock_movements.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112676_add_address_fields_to_stock_location.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112677_add_active_field_to_stock_locations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112678_add_backorderable_to_stock_item.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112679_add_default_quantity_to_stock_movement.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112680_add_source_and_destination_to_stock_movements.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112681_change_orders_total_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112682_change_spree_payments_amount_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112683_change_spree_return_authorization_amount_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112684_change_adjustments_amount_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112685_add_originator_to_stock_movement.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112686_drop_source_and_destination_from_stock_movement.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112687_migrate_inventory_unit_sold_to_on_hand.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112688_add_stock_location_to_rma.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112689_update_shipment_state_for_canceled_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112690_add_seo_metas_to_taxons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112691_remove_stock_item_and_variant_lock.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112692_add_name_to_spree_credit_cards.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112693_update_name_fields_on_spree_credit_cards.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112694_add_index_to_source_columns_on_adjustments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112695_update_adjustment_states.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112696_add_shipping_rates_to_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112697_create_spree_stock_transfers.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112698_drop_products_count_on_hand.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112699_set_default_shipping_rate_cost.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112700_add_number_to_stock_transfer.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112701_add_sku_index_to_spree_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112702_add_backorderable_default_to_spree_stock_location.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112703_add_propage_all_variants_to_spree_stock_location.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112704_rename_shipping_methods_zones_to_spree_shipping_methods_zones.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112705_add_user_id_index_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112706_add_updated_at_to_spree_countries.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112707_add_updated_at_to_spree_states.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112708_add_cvv_result_code_and_cvv_result_message_to_spree_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112709_add_unique_index_to_permalink_on_spree_products.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112710_add_unique_index_to_orders_shipments_and_stock_transfers.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112711_add_deleted_at_to_spree_tax_rates.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112712_remove_lock_version_from_inventory_units.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112713_add_cost_price_to_line_item.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112714_set_backorderable_to_default_to_false.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112715_add_created_by_id_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112716_index_completed_at_on_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112717_add_tax_category_id_to_spree_line_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112718_migrate_tax_categories_to_line_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112719_drop_spree_mail_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112720_set_default_stock_location_on_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112721_upgrade_adjustments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112722_rename_adjustment_fields.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112723_add_admin_name_column_to_spree_shipping_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112724_add_admin_name_column_to_spree_stock_locations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112725_add_shipment_total_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112726_expand_order_number_size.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112727_rename_activators_to_promotions.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112728_add_adjustment_total_to_line_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112729_add_adjustment_total_to_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112730_add_depth_to_spree_taxons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112731_add_tax_total_to_line_items_shipments_and_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112732_add_shipping_category_to_shipping_methods_and_products.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112733_migrate_old_shipping_calculators.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112734_add_code_to_spree_promotion_rules.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112735_change_states_required_for_countries.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112736_add_deleted_at_to_spree_stock_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112737_remove_promotions_event_name_field.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112738_add_promo_total_to_line_items_and_shipments_and_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112739_remove_unused_credit_card_fields.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112740_add_track_inventory_to_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112741_add_tax_category_to_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112742_add_channel_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112743_add_included_to_adjustments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112744_rename_tax_total_fields.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112745_add_line_item_id_to_spree_inventory_units.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112746_add_updated_at_to_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112747_add_position_to_classifications.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112748_create_spree_orders_promotions.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112749_unique_shipping_method_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112750_add_item_count_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112751_remove_value_type_from_spree_preferences.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112752_rename_permalink_to_slug_for_products.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112753_add_index_to_variant_id_and_currency_on_prices.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112754_rename_activator_id_in_rules_and_actions_to_promotion_id.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112755_add_deleted_at_to_spree_prices.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112756_add_approver_id_and_approved_at_to_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112757_add_confirmation_delivered_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112758_add_auto_capture_to_payment_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112759_create_spree_payment_capture_events.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112760_add_uncaptured_amount_to_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112761_default_variant_weight_to_zero.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112762_add_tax_category_id_to_shipping_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112763_add_tax_rate_id_to_shipping_rates.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112764_add_pre_tax_amount_to_line_items_and_shipments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112765_add_more_indexes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112766_add_considered_risky_to_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112767_add_preference_store_to_everything.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112768_add_user_id_to_spree_credit_cards.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112769_migrate_old_preferences.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112770_create_spree_stores.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112771_create_store_from_preferences.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112772_add_timestamps_to_spree_assets.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112773_create_spree_taxons_promotion_rules.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112774_add_additional_store_fields.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112775_add_many_missing_indexes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112776_correct_some_polymorphic_index_and_add_more_missing.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112777_add_user_id_created_by_id_index_to_order.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112778_change_spree_price_amount_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112779_add_token_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112780_move_order_token_from_tokenized_permission.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112781_set_shipment_total_for_users_upgrading.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112782_drop_credit_card_first_name_and_last_name.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112783_add_deleted_at_to_spree_promotion_actions.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112784_remove_uncaptured_amount_from_spree_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112785_create_spree_refunds.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112786_create_spree_return_authorization_inventory_unit.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112787_rename_return_authorization_inventory_unit_to_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112788_backfill_line_item_pre_tax_amount.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112789_recreate_spree_return_authorizations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112790_add_amount_fields_to_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112791_drop_return_authorization_amount.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112792_create_spree_return_authorization_reasons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112793_create_spree_refund_reasons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112794_rename_return_authorization_reason.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112795_create_spree_promotion_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112796_drop_received_at_on_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112797_add_reception_and_acceptance_status_to_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112798_create_default_refund_reason.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112799_add_default_to_spree_stock_locations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112800_create_spree_customer_returns.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112801_add_customer_return_id_to_return_item.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112802_create_friendly_id_slugs.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112803_rename_spree_refund_return_authorization_id.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112804_increase_return_item_pre_tax_amount_precision.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112805_copy_product_slugs_to_slug_history.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112806_create_spree_reimbursements.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112807_add_promotionable_to_spree_products.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112808_add_exchange_inventory_unit_foreign_keys.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112809_add_acceptance_status_errors_to_return_item.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112810_create_spree_reimbursement_types.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112811_add_default_to_shipment_cost.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112812_add_default_to_spree_credit_cards.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112813_make_existing_credit_cards_default.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112814_add_type_to_reimbursement_type.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112815_create_spree_reimbursement_credits.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112816_add_meta_title_to_spree_products.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112817_add_kind_to_zone.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112818_add_code_to_spree_tax_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112819_default_pre_tax_amount_should_be_zero.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112820_add_code_to_spree_shipping_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112821_add_cancel_audit_fields_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112822_add_store_id_to_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112823_create_spree_taxons_prototypes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112824_add_state_lock_version_to_order.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112825_add_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112826_fix_adjustment_order_presence.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112827_update_classifications_positions.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112828_add_guest_token_index_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112829_remove_token_permissions_table.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112830_remove_extra_products_slug_index.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112831_update_product_slug_index.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112832_rename_identifier_to_number_for_payment.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112833_create_spree_store_credits.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112834_create_spree_store_credit_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112835_create_spree_store_credit_events.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112836_create_spree_store_credit_types.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112837_remove_environment_from_payment_method.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112838_add_resellable_to_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112839_add_code_to_spree_promotion_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112840_remove_environment_from_tracker.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112841_remove_spree_configurations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112842_add_index_to_spree_stock_items_variant_id.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112843_ensure_payments_have_numbers.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112844_add_missing_indexes_on_spree_tables.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112845_remove_duplicated_indexes_from_multi_columns.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112846_remove_user_index_from_spree_state_changes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112847_fix_adjustment_order_id.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112848_add_position_to_spree_payment_methods.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112849_add_deleted_at_to_friendly_id_slugs.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112850_increase_scale_on_pre_tax_amounts.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112851_add_taxable_adjustment_total_to_line_item.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112852_migrate_payment_methods_display.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112853_enable_acts_as_paranoid_on_calculators.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112854_spree_payment_method_store_credits.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112855_rename_has_and_belongs_to_associations_to_model_names.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112856_spree_store_credit_types.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112857_add_discontinued_to_products_and_variants.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112858_remove_shipping_method_id_from_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112859_add_id_column_to_earlier_habtm_tables.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112860_add_indexes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112861_remove_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112862_acts_as_taggable_on_spree_migration.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112863_change_collation_for_spree_tag_names.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112864_add_missing_indexes_to_spree_taggings.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112865_add_zipcode_required_to_spree_countries.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112866_add_created_at_to_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112867_add_null_false_to_spree_variants_timestamps.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112868_add_quantity_to_inventory_units.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112869_add_original_return_item_id_to_spree_inventory_units.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112870_add_unique_index_on_number_to_spree_orders.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112871_add_unique_index_on_number_to_spree_stock_transfer.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112872_add_unique_index_on_number_to_spree_shipment.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112873_add_unique_index_on_number_to_spree_payments.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112874_add_unique_index_on_number_to_spree_return_authorizations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112875_add_unique_index_on_number_to_spree_customer_returns.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112876_add_unique_index_on_number_to_spree_reimbursements.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112877_add_missing_unique_indexes_for_unique_attributes.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112878_add_index_on_stock_location_to_spree_customer_returns.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112879_add_index_on_prototype_to_spree_option_type_prototype.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112880_add_indexes_to_spree_option_value_variant.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112881_add_index_on_promotion_id_to_order_promotions.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112882_add_indexes_for_property_prototype.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112883_add_index_for_prototype_id_to_prototype_taxons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112884_add_indexes_to_refunds.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112885_add_indexes_to_reimbursement_credits.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112886_add_indexes_to_return_authorizations.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112887_add_indexes_to_return_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112888_add_index_to_role_users.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112889_add_index_to_shipping_method_categories.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112890_add_index_to_shipping_method_zones.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112891_add_index_to_spree_shipping_rates.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112892_add_index_to_spree_stock_items.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112893_add_index_to_spree_stock_movement.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112894_change_indexes_on_friendly_id_slugs.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112895_add_analytics_kind_to_spree_trackers.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112896_rename_tracker_kind_field.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112897_remove_icon_from_taxons.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112898_add_unique_index_on_spree_promotions_code.spree.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112899_add_api_key_to_spree_users.spree_api.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112900_resize_api_key_field.spree_api.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112901_rename_api_key_to_spree_api_key.spree_api.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112902_add_index_to_user_spree_api_key.spree_api.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112903_create_users.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112904_rename_columns_for_devise.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112905_convert_user_remember_field.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112906_add_reset_password_sent_at_to_spree_users.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112907_make_users_email_index_unique.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112908_add_deleted_at_to_users.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112909_add_confirmable_to_users.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112910_add_missing_indices_on_user.spree_auth.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112911_update_braintree_payment_method_type.spree_gateway.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112912_update_stripe_payment_method_type.spree_gateway.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112913_update_balanced_payment_method_type.spree_gateway.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112914_update_paypal_payment_method_type.spree_gateway.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180808112915_migrate_stripe_preferences.spree_gateway.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133725_create_digitals.spree_digital.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133726_rename_digital_to_namespace.spree_digital.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133815_create_user_authentications.spree_social.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133816_create_authentication_methods.spree_social.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133817_add_db_index_to_user_authentications.spree_social.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180809133818_add_foreign_key_to_user_authentications_for_user_id.spree_social.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072647_create_suppliers.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072648_product_belongs_to_supplier.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072649_stock_locations_belongs_to_supplier.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072650_user_belongs_to_supplier.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072651_add_balanced_token_to_suppliers.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072652_add_supplier_id_to_ckeditor_assets.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072653_add_permalink_to_suppliers.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072654_add_supplier_commission_to_shipments.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072655_migrate_payment_and_commission.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811072656_create_spree_supplier_variants.spree_drop_ship.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811090221_create_spree_vendors.spree_multi_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811090222_add_vendor_id_to_spree_models.spree_multi_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811090223_add_state_to_vendors.spree_multi_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811090224_add_deleted_at_to_spree_vendors.spree_multi_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180811090225_create_spree_vendor_users.spree_multi_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180813060011_add_slug_to_vendors.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180814081110_add_owner_id_to_vendor.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/migrate/20180816140559_create_spree_subscriptions.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/private/digitals/1/1yztbx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/private/digitals/2/220px-Steve_Harvey_September_2008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/controllers/spree/subscriptions_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/controllers/spree/vendors_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/fixtures/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/fixtures/spree_subscriptions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/models/spree_subscription_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/vendor/assets/javascripts/spree/backend/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/vendor/assets/javascripts/spree/frontend/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/vendor/assets/stylesheets/spree/backend/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droppack/vendor/assets/stylesheets/spree/frontend/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spree" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/spree/vendors/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/spree/vendors/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_decorator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/spree/user_decorator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscription.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/spree/subscription.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendor_decorator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/spree/vendor_decorator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendors_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/spree/vendors_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriptions_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/spree/subscriptions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20180816140559_create_spree_subscriptions.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180816140559_create_spree_subscriptions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Erb File" />
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_id</find>
+      <find>product</find>
+      <find>found</find>
+      <find>recipe</find>
+      <find>vendor</find>
+      <find>follow</find>
+      <find>other_user</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/models/spree/product_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/products_controller_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/_product.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/spree/base_helper_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/application_record.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/admin/vendor_controller_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/overrides/spree/admin/layouts/admin.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/admin/vendors_controller_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/vendors/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/vendors/edit.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180816130923_create_spree_subscriptions.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180816133142_create_spree_subscriptions.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180816135221_create_spree_subscriptions.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/spree/vendors/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/spree/ability_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree_subscription.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180816140559_create_spree_subscriptions.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/vendors_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/vendor_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/user_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/spree/subscriptions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/subscription.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/vendors/show.html.erb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1579" />
+    <option name="y" value="-47" />
+    <option name="width" value="1770" />
+    <option name="height" value="957" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="droppack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droppack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droppack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droppack" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droppack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droppack" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droppack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droppack" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ability&#9;null&#9;null&#10;my account&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models/spree" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/spree" />
+      <recent name="$PROJECT_DIR$/app/views/spree/admin/vendors" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: droppack">
+    <configuration name="Development: droppack" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="droppack" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="Production: droppack" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="droppack" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="spec: droppack" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="droppack" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="test: droppack" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="droppack" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: droppack" />
+      <item itemvalue="Rake.spec: droppack" />
+      <item itemvalue="Rails.Production: droppack" />
+      <item itemvalue="Rails.Development: droppack" />
+    </list>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5f27040-5677-4fcf-8dce-7e92794c8f80" name="Default" comment="" />
+      <created>1534069004570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534069004570</updated>
+      <workItem from="1534069005731" duration="12459000" />
+      <workItem from="1534157126821" duration="5214000" />
+      <workItem from="1534255673833" duration="2838000" />
+      <workItem from="1534304337208" duration="9105000" />
+      <workItem from="1534321007337" duration="4711000" />
+      <workItem from="1534418506330" duration="3976000" />
+      <workItem from="1534484047442" duration="4429000" />
+      <workItem from="1534646048379" duration="7446000" />
+      <workItem from="1534685674199" duration="2410000" />
+      <workItem from="1534758730000" duration="11742000" />
+      <workItem from="1534846619655" duration="1192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65522000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1579" y="-47" width="1770" height="957" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24632768" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295583" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295583" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/spree/products/_product.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/spree/base_helper_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/overrides/spree/admin/layouts/admin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spree/products_controller_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/admin.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/vendors/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/vendors/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180809133725_create_digitals.spree_digital.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112903_create_users.spree_auth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180811090221_create_spree_vendors.spree_multi_vendor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180809133815_create_user_authentications.spree_social.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180816130923_create_spree_subscriptions.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112770_create_spree_stores.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112800_create_spree_customer_returns.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112806_create_spree_reimbursements.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112759_create_spree_payment_capture_events.spree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112748_create_spree_orders_promotions.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112736_add_deleted_at_to_spree_stock_items.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112698_drop_products_count_on_hand.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112663_create_default_stock.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112802_create_friendly_id_slugs.spree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180816133142_create_spree_subscriptions.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180808112815_create_spree_reimbursement_credits.spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180816135221_create_spree_subscriptions.rb" />
+    <entry file="file://$PROJECT_DIR$/app/views/spree/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/storage.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/ability_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spree/admin/vendors_controller_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/vendors/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/vendors/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180816140559_create_spree_subscriptions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spree/vendors_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/vendor_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/user_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/spree/subscriptions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/subscription.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/vendors/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
