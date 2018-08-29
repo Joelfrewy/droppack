@@ -9,7 +9,7 @@ Spree::ProductsController.class_eval do
         spree_base_scopes.
         active(current_currency).
         includes([:option_values, :images])
-    @packs = @variants.first.packs
+    @available_packs = @variants.first.available_packs
     @product_properties = @product.product_properties.includes(:property)
     @taxon = params[:taxon_id].present? ? Spree::Taxon.find(params[:taxon_id]) : @product.taxons.first
     redirect_if_legacy_path

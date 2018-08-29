@@ -5,7 +5,7 @@
       <div class="panel-body text-center pack-body">
         <%#= link_to url, itemprop: "url" do %>
           <%#= small_image(pack, itemprop: "image") %><br/>
-          <%#= content_tag(:span, truncate(pack.name, length: 50), class: 'info', itemprop: "name", title: pack.name) %>
+          <%= content_tag(:span, truncate(pack.name, length: 50), class: 'info', itemprop: "name", title: pack.name) %>
         <%# end %>
         <br/>
       </div>

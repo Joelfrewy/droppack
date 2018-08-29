@@ -361,6 +361,8 @@ ActiveRecord::Schema.define(version: 2018_08_26_140559) do
 
   create_table "spree_packs", force: :cascade do |t|
     t.datetime "deleted_at"
+    t.string "name", default: "", null: false
+    t.text "description"
     t.integer "variant_id"
     t.datetime "available_on"
     t.datetime "discontinue_on"

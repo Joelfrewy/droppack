@@ -32,17 +32,17 @@
           <h1 class="product-title" itemprop="name"><%= @product.name %></h1>
 
           <div class="well" itemprop="description" data-hook="description">
-            subscribed: <%= spree_current_user.subscribed?(@variants.first) %>
+            subscribed: <%= !spree_current_user.nil? and spree_current_user.subscribed?(@variants.first) %>
           </div>
 
           <div id="follow_form">
-            <% if spree_current_user.subscribed?(@variants.first) %>
+            <% if !spree_current_user.nil? and spree_current_user.subscribed?(@variants.first) %>
               <%= form_for(spree_current_user.active_subscriptions.find_by(variant_id: @variants.first.id),
                            html: { method: :delete }) do |f| %>
                 <%= f.submit "Unsubscribe", class: "btn" %>
               <% end %>
             <% else %>
-              <%= form_for(spree_current_user.active_subscriptions.build) do |f| %>
+              <%= form_for(@variants.first.passive_subscriptions.build) do |f| %>
                 <div><%= hidden_field_tag :variant_id, @variants.first.id %></div>
                 <%= f.submit "Subscribe", class: "btn btn-primary" %>
               <% end %>
@@ -69,10 +69,10 @@
         </div>
 
         <div data-hook="search_results">
-          <% if @packs.empty? %>
+          <% if @available_packs.empty? %>
             <h6 class="search-results-title"><%= Spree.t(:no_packs_found) %></h6>
           <% else %>
-            <%= render partial: 'spree/shared/packs', locals: { packs: @packs } %>
+            <%= render partial: 'spree/shared/packs', locals: { packs: @available_packs } %>
           <% end %>
         </div>
       </div>

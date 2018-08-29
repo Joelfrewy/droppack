@@ -43,5 +43,16 @@ Spree::Subscription.find_or_create_by(subscriber_id: Spree::User.find_by(email: 
 Spree::Subscription.find_or_create_by(subscriber_id: Spree::User.find_by(email: "jeffsapley@gmail.com").id,
                                       variant_id: Spree::Variant.find_by(product_id: Spree::Product.find_by(name: "Ruby on Rails Tote").id).id)
 
+
 Spree::Pack.find_or_create_by(variant_id: Spree::Variant.find_by(product_id: Spree::Product.find_by(name: "Ruby on Rails Tote").id).id,
-                              available_on: DateTime.new(2018,9,14,8) )
+                              available_on: DateTime.new(2018,6,14,8),
+                              name: "June")
+Spree::Pack.find_or_create_by(variant_id: Spree::Variant.find_by(product_id: Spree::Product.find_by(name: "Ruby on Rails Tote").id).id,
+                              available_on: DateTime.new(2018,7,14,8),
+                              name: "July")
+Spree::Pack.find_or_create_by(variant_id: Spree::Variant.find_by(product_id: Spree::Product.find_by(name: "Ruby on Rails Tote").id).id,
+                              available_on: DateTime.new(2018,8,14,8),
+                              name: "August")
+Spree::Pack.find_or_create_by(variant_id: Spree::Variant.find_by(product_id: Spree::Product.find_by(name: "Ruby on Rails Tote").id).id,
+                              available_on: DateTime.new(2018,9,14,8),
+                              name: "September")

@@ -2,6 +2,8 @@ class CreateSpreePacks < ActiveRecord::Migration[5.2]
   def change
     create_table :spree_packs do |t|
       t.datetime "deleted_at"
+      t.string "name", default: "", null: false
+      t.text "description"
       t.integer "variant_id"
       t.datetime "available_on"
       t.datetime "discontinue_on"
