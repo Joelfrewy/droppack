@@ -12,11 +12,15 @@ class Spree::SubscriptionsController < ApplicationController
   end
 
   def create
-    @variant = Spree::Variant.find(params[:variant_id])
-    spree_current_user.subscribe(@variant)
-    respond_to do |format|
-      format.html { redirect_to @variant.product }
-      format.js
+    if !spree_current_user
+      redirect_to :login
+    else
+      @variant = Spree::Variant.find(params[:variant_id])
+      spree_current_user.subscribe(@variant)
+      respond_to do |format|
+        format.html { redirect_to @variant.product }
+        format.js
+      end
     end
   end
 

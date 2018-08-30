@@ -14,27 +14,19 @@
 
 <div data-hook="account_my_subscriptions" class="account-my-subscriptions">
   <h3><%= Spree.t(:my_subscriptions) %></h3>
-  <% if @subscriptions.present? %>
+  <% if spree_current_user.active_subscriptions.present? %>
     <table class="table table-striped order-summary">
       <thead class="active">
       <tr>
-        <th class="order-number"><%#= Spree::Order.human_attribute_name(:number) %></th>
-        <th class="order-date"><%#= Spree.t(:date) %></th>
-        <th class="order-status"><%#= Spree.t(:status) %></th>
-        <th class="order-payment-state"><%#= Spree.t(:payment_state) %></th>
-        <th class="order-shipment-state"><%#= Spree.t(:shipment_state) %></th>
-        <th class="order-total"><%#= Spree.t(:total) %></th>
+        <th class="subscription-product"><%= Spree.t(:product) %></th>
+        <th class="order-date"><%= Spree.t(:date) %></th>
       </tr>
       </thead>
       <tbody>
-      <% @subscriptions.each do |subscription| %>
+      <% spree_current_user.active_subscriptions.each do |subscription| %>
         <tr>
-          <td class="order-number"><%#= link_to order.number, order_url(order) %></td>
-          <td class="order-date"><%#= l order.completed_at.to_date %></td>
-          <td class="order-status"><%#= Spree.t("order_state.#{order.state}").titleize %></td>
-          <td class="order-payment-state"><%#= Spree.t("payment_states.#{order.payment_state}").titleize if order.payment_state %></td>
-          <td class="order-shipment-state"><%#= Spree.t("shipment_states.#{order.shipment_state}").titleize if order.shipment_state %></td>
-          <td class="lead text-primary order-total"><%#= order.display_total %></td>
+          <td class="subscription-product"><%= subscription.variant.product.name %></td>
+          <td class="order-date"><%= subscription.created_at %></td>
         </tr>
       <% end %>
       </tbody>
