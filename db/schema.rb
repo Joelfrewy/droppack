@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_26_140559) do
+ActiveRecord::Schema.define(version: 2018_08_31_080307) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -230,7 +230,7 @@ ActiveRecord::Schema.define(version: 2018_08_26_140559) do
   end
 
   create_table "spree_line_items", id: :serial, force: :cascade do |t|
-    t.integer "variant_id"
+    t.integer "pack_id"
     t.integer "order_id"
     t.integer "quantity", null: false
     t.decimal "price", precision: 10, scale: 2, null: false
@@ -247,8 +247,8 @@ ActiveRecord::Schema.define(version: 2018_08_26_140559) do
     t.decimal "taxable_adjustment_total", precision: 10, scale: 2, default: "0.0", null: false
     t.decimal "non_taxable_adjustment_total", precision: 10, scale: 2, default: "0.0", null: false
     t.index ["order_id"], name: "index_spree_line_items_on_order_id"
+    t.index ["pack_id"], name: "index_spree_line_items_on_pack_id"
     t.index ["tax_category_id"], name: "index_spree_line_items_on_tax_category_id"
-    t.index ["variant_id"], name: "index_spree_line_items_on_variant_id"
   end
 
   create_table "spree_log_entries", id: :serial, force: :cascade do |t|
